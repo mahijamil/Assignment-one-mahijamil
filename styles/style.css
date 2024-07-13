@@ -21,6 +21,15 @@
     margin-bottom: 38px;
 }
 
+.section-title{
+    font-size: 32px;
+    font-weight: 800px;
+    color: rgb(13, 19, 33);
+}
+.text-center{
+    text-align: center;
+    
+}
 /* header */
 .header{
     background-image: url("../styles/assets/Hero-bg.png");
@@ -68,4 +77,24 @@ nav ul li {
 }
 .banner-profile{
     width: 240.28px;
+}
+/* section styles */
+.section-2{
+    justify-content: center;
+}
+.section-6{
+    padding-bottom: 25px;
+}
+.youtube{
+    justify-content: center;
+    align-items: center;
+}
+/* skills section */
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skills{
+    padding: 40px;
+    box-shadow: 0px 6px 50px 0px rgb(0, 0,0,0.06);
 }
